@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', 
-                    url: 'git@github.com:mern-app.git',  // Updated to GitHub
+                    url: 'git@github.com:LoueyDenden/mern-app.git',  // Updated to GitHub
                     credentialsId: 'github'  // Make sure the credentials ID matches your GitHub setup
             }
         }
